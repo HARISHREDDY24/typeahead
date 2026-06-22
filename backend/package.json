@@ -1,0 +1,15 @@
+{
+    "name": "search-typeahead-backend",
+    "version": "1.0.0",
+    "type": "module",
+    "scripts": {
+        "gen": "node generateDataset.js",
+        "load": "node loadDataset.js",
+        "start": "node server.js"
+    },
+    "dependencies": {
+        "better-sqlite3": "^11.3.0",
+        "express": "^4.21.0",
+        "cors": "^2.8.5"
+    }
+}
